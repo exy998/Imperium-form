@@ -7,18 +7,42 @@ body {
     background-color: #f0f2f5;
     font-family: 'Inter', sans-serif;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     min-height: 100vh;
 }
 main {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 220px;
+    margin-bottom: 40px;
     gap: 40px;
     background-color: white;
     padding: 50px;
     max-width: 1000px;
     box-shadow: 0 3px 9px rgba(0, 0, 0, 0.12)
+}
+.main-header {
+    background-color: white;
+    padding: 20px 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    display: flex;
+    gap: 25px;
+    max-width: 450px;
+}
+.nav-links a {
+    text-decoration: none;
+    transition: 350ms;
+    color: #333;
+}
+.nav-links a:hover {
+    color: #111;
+    text-shadow: 0.2px 0 0 #111, -0.2px 0 0 #111;
 }
 .info-block {
     font-size: 25px;
@@ -29,6 +53,13 @@ main {
     font-size: 16px;
     color: #666;
     line-height: 1.6;
+}
+.logo {
+    font-size: 25px;
+    font-weight: 700;
+}
+div span {
+    color: blue;
 }
 form {
     display: grid;
