@@ -88,13 +88,12 @@ textarea {
     resize: none;
 }
 button {
-    margin-top: 8px;
     transition: 650ms;
     border-radius: 8px;
     background-color: #111;
     color: white;
     border: 1px solid #ccc;
-    padding: 12px;
+    padding: 15px;
     font-weight: 600;
     grid-column: span 2;
 }
